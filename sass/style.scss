@@ -1,0 +1,73 @@
+.board {
+    text-align: center;
+    background: url(https://i.pinimg.com/originals/a9/94/67/a99467bbf50c1e31c1c965610170ff60.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 1rem;
+    font-family: 'Raleway', sans-serif;
+    
+    h1{
+        color: #00cccc;
+        font-weight: 900;
+        display: block;
+        margin-top: 50px;
+    }
+
+    .create-column {
+        border-radius: 5%;
+        background-color: #CFB53B;
+        border-color: #CFB53B;
+        color: white;
+        font-size: 20px;
+        padding: 5px; 
+        & :hover {
+            background-color: white;
+            color: #ccccff;
+        }
+    }
+
+    .column-container {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+        flex-wrap: wrap;
+
+        .column {
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 5%;
+            display: inline-block;
+            margin: 1rem;
+            min-height: 300px;
+            min-width: 150px;
+            width: 25vw;
+
+            h2 {
+                color: #996666;
+            }
+
+            .column-card-list {
+                align-items: center;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                min-height: 150px;
+                list-style-type: none;
+            }
+
+            .card {
+                background-color: #00cccc;
+                border-radius: 5%;
+                list-style-type: none;
+                margin: 1px;
+            }
+
+            p {
+                color: #000033;
+            }
+        }
+    }
+
+}

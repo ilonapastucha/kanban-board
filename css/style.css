@@ -1,0 +1,19 @@
+.board { text-align: center; background: url(https://i.pinimg.com/originals/a9/94/67/a99467bbf50c1e31c1c965610170ff60.jpg); background-repeat: no-repeat; background-size: cover; min-height: 100vh; padding: 1rem; font-family: 'Raleway', sans-serif; }
+
+.board h1 { color: #00cccc; font-weight: 900; display: block; margin-top: 50px; }
+
+.board .create-column { border-radius: 5%; background-color: #CFB53B; border-color: #CFB53B; color: white; font-size: 20px; padding: 5px; }
+
+.board .create-column :hover { background-color: white; color: #ccccff; }
+
+.board .column-container { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; margin: 0 auto; text-align: center; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+
+.board .column-container .column { background: rgba(255, 255, 255, 0.7); border-radius: 5%; display: inline-block; margin: 1rem; min-height: 300px; min-width: 150px; width: 25vw; }
+
+.board .column-container .column h2 { color: #996666; }
+
+.board .column-container .column .column-card-list { -ms-flex-align: center; align-items: center; display: -ms-flexbox; display: flex; -ms-flex-direction: row; flex-direction: row; -ms-flex-wrap: wrap; flex-wrap: wrap; -ms-flex-pack: center; justify-content: center; min-height: 150px; list-style-type: none; }
+
+.board .column-container .column .card { background-color: #00cccc; border-radius: 5%; list-style-type: none; margin: 1px; }
+
+.board .column-container .column p { color: #000033; }
